@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #090909, #232323);
+    font-size: 1.5rem;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    border: 1px solid wheat;
+    margin: 4% auto;
+}
+
+.warning {
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    visibility: hidden;
+}
+
+.email {
+    margin-top: 30px;
+}
+
+.email label {
+    color: wheat;
+    margin-left: 40px;
+}
+
+#email {
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 1.1rem;
+}
+
+.password {
+    margin-top: 15px;
+}
+
+.password label {
+    color: wheat;
+    margin-left: 40px;
+}
+
+#password {
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 1.1rem;
+}
+
+.btn {
+    width: 27%;
+    height: 7%;
+    background: linear-gradient(to left, #d49b54, #e7ab79);
+    margin-top: 20px;
+    margin-left: 252px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: linear-gradient(to left, #e7ab79, #d49b54);
+}
